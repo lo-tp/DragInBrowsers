@@ -1,12 +1,8 @@
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+# DragInBrowser
 
-# React Tutorial
+This is an example to demonstrate **how to implement drag actions in mobile browsers** for this [article][hello]. 
 
-This is the React comment box example from [the React tutorial](http://facebook.github.io/react/docs/tutorial.html).
-
-## To use
-
-There are several simple server implementations included. They all serve static files from `public/` and handle requests to `/api/comments` to fetch or add data. Start a server with one of the following:
+## How to Run
 
 ### Node
 
@@ -53,3 +49,5 @@ You can change the port number by setting the `$PORT` environment variable befor
 ```sh
 PORT=3001 node server.js
 ```
+
+[hello]:http://blog.lotp.xyz/2016/09/07/Drag-Gestures-Inside-Mobile-Browsers-Purely-in-CSS-and-JS/
